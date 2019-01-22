@@ -187,5 +187,23 @@ a:active, a:focus, a:hover {
 }
 
 .background1{
-    background-image: url('sc.jpg')
+    
+    height:auto;
+    max-width: width 100%;
+    position:relative;
+}
+.background1::after{
+    content:"";
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/ba/University_of_Waterloo_Nano_Building.jpg');
+    opacity: 0.15;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
 }
