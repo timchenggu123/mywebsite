@@ -8,7 +8,7 @@ body {
     font-family: Muli, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     padding-top: 54px;
     /*color: #868e96*/
-    color: #929ca5
+    color: #b6c7d4
 }
 
 @media (min-width:992px) {
@@ -92,6 +92,9 @@ p.lead {
 }
 
 @media (min-width:992px) {
+    .background1::after{
+        background-attachment: fixed;
+    }
     #sideNav {
         text-align: center;
         position: fixed;
@@ -204,7 +207,7 @@ a:active, a:focus, a:hover {
     bottom: 0;
     right: 0;
     z-index: -1;   
-    background-attachment: fixed;
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
